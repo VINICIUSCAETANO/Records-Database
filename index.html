@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <title>Bandas e Discos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+                            
+            <form method="post" action="insere.php">
+                <a href="lista.php" class="btn btn-dark" role="button" style="margin-bottom: 20px">Lista</a>
+                <div class="form-group">
+                    <label for="nome">Nome do Disco:</label>
+                    <input type="text" class="form-control" id="nome" name="nome">
+                </div>
+                <div class="form-group">
+                    <label for="ano">Ano:</label>
+                    <input type="text" class="form-control" id="ano" name="ano">
+                </div>
+                <div class="form-group">
+                    <label for="banda">Banda:</label>
+                    <input type="text" class="form-control" id="banda" name="banda">
+                </div>
+                <div class="form-group">
+                    <label for="midia">Tipo de Mídia:</label>
+                    <input type="text" class="form-control" id="midia" name="midia">
+                </div>
+                <div class="form-group">
+                    <label for="genero">Gênero:</label>
+                    <input type="text" class="form-control" id="genero" name="genero">
+                </div>
+                <div class="form-group">
+                    <label for="nota">Nota:</label>
+                    <input type="text" class="form-control" id="nota" name="nota">
+                </div>
+                <input type="submit" class="btn btn-primary" value="Enviar">
+                <input type="reset" class="btn btn-warning" value="Limpar">
+            </form>
+        </div>
+</body>
+
+</html>
